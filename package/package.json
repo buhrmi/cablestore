@@ -1,0 +1,28 @@
+{
+  "name": "@buhrmi/cablestore",
+  "version": "0.3.3",
+  "description": "Push data from your Rails backend directly into Svelte stores",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/buhrmi/cablestore.git"
+  },
+  "type": "module",
+  "keywords": [
+    "rails",
+    "svelte",
+    "actioncable"
+  ],
+  "author": "Stefan Buhrmester",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/buhrmi/cablestore/issues"
+  },
+  "homepage": "https://github.com/buhrmi/cablestore#readme",
+  "dependencies": {
+    "@rails/actioncable": "^7.0.0"
+  }
+}
